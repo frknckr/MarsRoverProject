@@ -72,7 +72,6 @@ namespace MarsRover.Models
         {
             bool flag = true; // assigned to check the situation of condition
             int checkInt = 0;
-            object directionType = null; //assigned to be able to use TryParse method
             initialPosition = initialPosition.Where(a => a != "").ToArray();
 
             if (initialPosition.Length == 3)
@@ -90,7 +89,7 @@ namespace MarsRover.Models
                     }
                     else
                     {
-                        flag = flag && Enum.TryParse(typeof(Directions), initialPosition[i], true, out directionType);
+                        flag = flag && Enum.IsDefined(typeof(Directions), initialPosition[i].ToUpper());
                         if (!flag)
                         {
                             break;
@@ -115,13 +114,14 @@ namespace MarsRover.Models
         public bool CommandControl(char[] commandList)
         {
             bool flag = true; // assigned to check the situation of condition
-            object cmdType = null; // assigned to be able to use TryParse method
+
             foreach (var command in commandList)
             {
-                flag = flag && Enum.TryParse(typeof(Commands), command.ToString(), out cmdType);
+                flag = flag && Enum.IsDefined(typeof(Commands), command.ToString());
                 if (!flag)
                     break;
             }
+
             return flag;
         }
 
@@ -240,6 +240,7 @@ namespace MarsRover.Models
                         break;
                 }
             }
+
             return new Position { X = this.X, Y = this.Y, Direction = this.Direction };
         }
 
