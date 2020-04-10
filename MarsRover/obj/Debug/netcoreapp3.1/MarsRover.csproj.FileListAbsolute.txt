@@ -1,0 +1,13 @@
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp3.1\MarsRover.exe
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp3.1\MarsRover.deps.json
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp3.1\MarsRover.runtimeconfig.json
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp3.1\MarsRover.runtimeconfig.dev.json
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp3.1\MarsRover.dll
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp3.1\MarsRover.pdb
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.csprojAssemblyReference.cache
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.csproj.CoreCompileInputs.cache
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.AssemblyInfoInputs.cache
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.AssemblyInfo.cs
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.dll
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.pdb
+C:\Users\KTN43512\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp3.1\MarsRover.genruntimeconfig.cache
